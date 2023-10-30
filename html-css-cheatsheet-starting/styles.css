@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rebeccapurple;
+}
+
+table {
+    margin: auto;
+    width: 650px;
+    border: 2px solid darkorchid;
+}
+
+th {
+    background-color:fuchsia;
+    font-weight: bold;
+}
+
+th,
+td {
+    text-decoration: underline;
+    text-decoration-color: darkorchid;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
+
+.malik {
+    font-family: 'Raleway', sans-serif;
+}
+

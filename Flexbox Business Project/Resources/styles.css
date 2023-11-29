@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.header h1 {
+    color: antiquewhite;
+}
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: antiquewhite;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    margin-top: 150px;
+    height: 300px;
+    justify-content: center;
+    background-color: bisque;
+    background-image: url('https://professions.ng/wp-content/uploads/2023/08/Studying-Cinematography-in-Nigeria-Top-Schools-to-Consider1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.banner-content  {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#bannertitle {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: antiquewhite;
+}
+
+#bannertext {
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    color:antiquewhite;
+}
+
+/* Portfolio */
+
+.portfolio {
+    display: flex;
+    justify-items: center;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.video {
+    display: flex;
+}
+
+/* Package section */
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0px;
+    
+}
+
+
+#package1, img {
+    width: 100px;
+}
+
+#package1 {
+    width: 25%;
+    border: 1px solid antiquewhite;
+}
+
+#package2, img {
+    width: 100px;
+}
+
+#package2 {
+    width: 25%;
+    border: 1px solid antiquewhite;
+}
+
+#package3, img {
+    width: 100px;
+}
+
+#package3 {
+    width: 25%;
+    border: 1px solid antiquewhite;
+}
+
+
+/* Contact section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.copyright {
+    padding: 20px;
+    background-color: bisque;
+}
+
+li {
+    text-align: left;
+
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+h2, h4 {
+    color: black;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#videopackages {
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

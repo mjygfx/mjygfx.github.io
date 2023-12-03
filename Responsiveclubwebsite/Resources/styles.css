@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffc93c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.photos img {
+    max-width: 30%;
+}
+
+.navbar {
+    background-color: #ff9a3c;
+    color: #155263;
+    padding: 1rem;
+}
+
+.navbar a {
+    padding: 1rem;
+    left: 25rem;
+    font-size: 16px;
+}
+
+.intro {
+    height: 20rem;
+    padding-top: 1rem;
+    background-color: #ffc93c;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #ff6f3c;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+@media (max-width: 1048px) {
+    .intro {
+        height: 27rem;
+    }
+}
+
+.aboutus {
+    background-color: #ff9a3c;
+    height: 8rem;
+    padding: 1rem;
+    color: #155263;
+    text-align: center;
+}
+
+.aboutus h2 {
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+
+@media (max-width: 1048px) {
+
+    .photos img {
+      size: 100%;
+    }
+  }
+
+
+.perks {
+    text-align: center;
+    color: #155263;
+}
+
+.perks h2 {
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+ul.perkies {
+    display: inline-block;
+    text-align: left;
+}
+
+.meetup {
+    color: #155263;
+    background-color: #ff9a3c;
+    text-align: center;
+    padding: 5rem;
+}
+
+.meetup img {
+    width: 40%;
+    padding-bottom: 1rem;
+}
+
+.meetup h2 {
+    font-size: 2rem;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+.contact {
+    text-align: center;
+    color: #ff6f3c;
+}
+
+.navbarbottom {
+    background-color: #ff9a3c;
+    color: #155263;
+    padding: 1rem;
+}
+
+.navbarbottom a {
+    font-size: 16px;
+    padding: 1rem;
+}
+
